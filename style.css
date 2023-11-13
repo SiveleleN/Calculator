@@ -1,0 +1,78 @@
+nav {
+    background-color: blueviolet;
+    color: yellowgreen;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, hsl(77, 100%, 71%), hsl(121, 90%, 54%), hsl(326, 100%, 48%));
+    margin: 0;
+}
+.calculator {
+    background: linear-gradient(135deg, hsl(0, 92%, 66%), hsl(328, 90%, 54%), hsl(0, 94%, 49%));
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.display {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    background-color: #444;
+    color: white;
+    font-size: 24px;
+    text-align: right;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+button {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.number {
+    background-color: lightcoral;
+    color: white;
+}
+.operator {
+    background-color: #2196F3;
+    color: white;
+}
+.clear {
+    background-color: violet;
+    color: white;
+}
+.equal {
+    background-color: #F57C00;
+    color: white;
+}
+
